@@ -109,7 +109,7 @@ font-size: 30px;
 font-size: 20px;
 margin-bottom: 130px;
 }
-
+/* designing upper footer */
 .upper-footer{
     display: flex;
     justify-content: center;
@@ -125,4 +125,130 @@ margin-bottom: 130px;
    
     margin: 50px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: bottom left;
+    flex-direction: column;
+    column-gap: 100px;
+    
+    
+}
+.positive-mindset{
+    font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+    margin:0 550px 0 64px;
+
+}
+.secondary-button{
+
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+border-radius: 5px;
+border: none;
+color:  #F15B22;
+font-weight: 600;
+font-size: 20px;
+margin:24px 550px 0 64px;
+}
+
+/* Designing footer */
+
+footer{
+    background-color: #151414;
+    height: 100px;
+    display: flex;
+    gap: 100px;
+    padding: 230px;
+}
+.future{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+
+}
+.future-details, .email, .phone{
+    font-weight: 400;
+font-size: 16px;
+margin: 16px 0 16px 0;
+color: #F8F8F8;
+
+}
+
+footer section img{
+    margin-right: 30px;
+}
+.subscribe{
+    font-weight: 600;
+font-size: 25px;
+color: #FFFFFF;
+}
+footer section input{
+    border-color: white;
+    width: 325px;
+    height: 64px;
+padding: 10px;
+border-radius: 8px;
+background-color: transparent;
+
+
+}
+footer section button{
+    width: 170.11px;
+height: 64px;
+color: #F15B22;
+border-radius: 5px;
+border: none;
+font-weight: 600;
+font-size: 20px;
+}
+/* Designing Sprint section */
+.sprint{
+    margin: 100px;
+}
+.working-plan{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sprint-action{
+    box-shadow:  4px 4px 4px rgba(46, 18, 7, 0.178);
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.sprint h3{
+    font-weight: 700;
+font-size: 40px;
+text-align: center;
+margin-bottom: 50px;
+
+}
+.sprint-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  
+ 
+}
+.plan-details{
+    text-align: center;
+}
+
+.duration{
+    height: 50px;
+    margin-left: 8px;
+}
+
+.sprint-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
